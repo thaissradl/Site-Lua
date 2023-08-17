@@ -92,6 +92,10 @@ footer {
 }
 
 footer > p > a {
-  color: white;
+  color: #0e0eb3cf;
   text-decoration: none;
+}
+
+footer > p > a:hover {
+  color: #4747ff;
 }
