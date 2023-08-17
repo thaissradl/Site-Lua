@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lua</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media-query.css">
+</head>
+<body>
+  
+  <main>
+
+    <h1>Se inscreva para ir até a Lua!</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="off">
+
+      <fieldset>
+        <legend>Nome</legend>
+          <p>
+            <input type="text" name="name" id="iname" minlength="3" maxlength="30" required placeholder="Nome completo" autocomplete="name">
+          </p>
+      </fieldset>
+
+        <fieldset>
+          <legend>E-mail</legend>
+          <p>
+            <input type="email" name="email" id="iemail" maxlength="40" required placeholder="E-mail" autocomplete="email">
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Telefone</legend>
+          <p>
+            <input type="tel" name="tel" id="itel" maxlength="11" autocomplete="tel" pattern="^\(d{2}\)\d\{4,5}-\d{4}$" required placeholder="(xx)xxxx-xxxx">
+          </p>
+        </fieldset> 
+    </form> 
+
+      <div><button type="button">Enviar</button></div>
+    
+  </main>
+
+  <footer> 
+    <p>Desenvolvido por <a href="https://github.com/thaissradl">Thais</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  color: black;
+  background-color: black;
+  background-image: url('../pexels-luis-dalvan-30823053.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+main {
+  position: center;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 15px;
+  
+  backdrop-filter: blur(3px); 
+  background-color: rgba(100, 100, 100, 0.1);
+}
+
+h1 {
+  font-size: 2.2em;
+  text-align: center;
+}
+
+fieldset {
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+fieldset > legend {
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 1.5em;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 0; 
+  outline: none;
+  border-radius: 8px;
+  font-size: 1em;
+  border: 0;
+}
+
+input:focus {
+  background-color: #f8e0bd9d;
+  color:black;
+}
+
+div > button {
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 1.3em;
+  cursor: pointer;
+
+  transition-duration: 1.9s;
+}
+
+div > button:hover {
+  background-color: #f8e0bda1;
+  transform: scale(1.1);
+}
+
+footer {
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+}
+
+footer > p > a {
+  color: white;
+  text-decoration: none;
+}
