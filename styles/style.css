@@ -33,7 +33,7 @@ main {
   border-radius: 15px;
   
   backdrop-filter: blur(3px); 
-  background-color: rgba(100, 100, 100, 0.1);
+  background-color: #6464641a;
 }
 
 h1 {
@@ -89,6 +89,8 @@ footer {
   font-size: 1.5em;
   text-align: center;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 footer > p > a {
